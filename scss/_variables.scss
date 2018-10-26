@@ -16,3 +16,11 @@ $black: #000 !default;
 
 $primary: #1D809F !default;
 $secondary: #ecb807 !default;
+
+@mixin white-stroke {
+  text-shadow:
+     -1px -1px 5px #fff,
+      1px -1px 5px #fff,
+      -1px 1px 5px #fff,
+       1px 1px 5px #fff;
+}
